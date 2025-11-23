@@ -1,4 +1,4 @@
-<%@ include file="WEB-INF/dbconnect.jsp" %>
+<%@ include file="dbconnect.jsp" %>
 <%
     if(session.getAttribute("admin_user")==null){
         response.sendRedirect("admin_login.jsp"); return;
@@ -7,7 +7,7 @@
 <html>
 <head>
     <title>Add Customer</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="header"><h1>Add Customer</h1></div>

@@ -17,7 +17,7 @@
 </div>
 
 <div class="container">
-    <img src="<%= "/mnt/data/7856b7b2-62a4-455c-9201-61de326ab553.png" %>" alt="logo" style="max-width:150px; display:block; margin-bottom:15px;">
+    <img src="<%= "image/pagebg.jpg" %>" alt="logo" style="max-width:150px; display:block; margin-bottom:15px;">
     <p>Welcome, <b><%=admin %></b></p>
 
     <a href="add_room.jsp"><button class="btn">Add Room</button></a>
